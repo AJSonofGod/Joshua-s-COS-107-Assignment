@@ -1,0 +1,212 @@
+body{ 
+        background-color:rgb(255, 208, 0);
+        padding-top: 140px;
+        margin:0px;
+
+}
+
+#Heading2{ 
+          display:flex;
+          background-color:black;
+          position: fixed;
+          top: 0px;
+          left: 0px;
+          right: 0px;
+          padding-top: 20px;
+          justify-content: space-between;
+}
+
+#Button2 {
+            line-height: 0px;
+}
+
+.Batch2{ 
+        background-color:white;
+        border-radius:40px;
+        height:80px;
+        width:80px;
+        margin-left:90px;
+        margin-top: -6px;
+        font-family:arial;
+        font-size:36px;
+        transition: 2s;
+}
+
+.Batch2:hover {
+        color: white;
+        background-color: black;
+        transform: rotate(360deg); 
+}
+
+
+h5{ 
+    color:white;
+    margin-left: 20px;
+}
+
+h5:hover {
+            transform: rotateX(360deg);
+            color: yellow;
+            cursor: pointer;
+            transition: 2s;
+}
+
+h1 { 
+    color:white;  
+}
+
+#Welcome2{
+            display: grid;
+            text-align: center;
+            margin-left: -60px;
+}
+
+#Link2 { 
+        line-height: 26px;
+        margin-right: 40px;
+}
+
+.Homepage2, .Videos2, .Greetings2 {
+        color: yellow;;
+        text-decoration: none;
+}
+
+.Homepage2:hover{
+        color: blue;
+        transition: 0.25s;
+        text-decoration: underline;
+}
+
+.Homepage2:active {
+        color: white;
+}
+
+.Videos2:hover{
+        color: blue;
+        transition: 0.25s;
+        text-decoration: underline;
+}
+
+.Videos2:active {
+        color: white;
+}
+
+.Greetings2:hover {
+        color: blue;
+        transition: 0.25s;
+        text-decoration: underline;
+}
+
+.Greetings2:active {
+        color: white;
+}
+
+.About2 {
+        text-decoration: none;
+}
+
+.About2:visited{
+        color: red;
+}
+
+.Para1 {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-family: arial;
+        font-size: 18px;
+        line-height: 24px;
+}
+
+.Para2 {
+        margin-left: 20px;
+        font-family: arial;
+        font-size: 18px;
+        margin-bottom: 60px;
+}
+
+.Message {
+        text-decoration: none;
+}
+
+.Message:hover {
+        color: white;
+        transition: 0.30s;
+}
+
+.Message:active {
+        color: red;
+}
+
+.More {
+        margin-left: 20px;
+        background-color: black;
+        border-width: 1px;
+        color: white;
+        font-family: arial;
+        font-size: 18px;
+        padding: 6px;
+}
+
+.More:hover {
+        background-color: blue;
+        border-width: 1px;
+        border-color: white;
+        border-radius: 5px;
+        transition: 0.50s;
+}
+
+.More:active {
+        background-color: red;
+}
+
+.Linked {
+        text-decoration: none;
+        color: white;
+}
+
+@media (max-width:850px) and (min-width:350px) {
+body {
+        padding-top: 110px;
+}
+
+        #Heading2{ 
+          padding-bottom: 4px;
+}
+
+.Batch2{ 
+        margin-left:30px;
+        border-radius:30px;
+        height:58px;
+        width:58px;
+        font-size: 26px;
+}
+
+h5 {
+        font-size: 7px;
+        margin-left: 2px;
+}
+
+h1 { 
+    color:white; 
+    font-size: 24px;
+    margin-left: 40px; 
+}
+
+#Welcome2{
+            text-align: center;
+
+}
+
+#Link2 { 
+        line-height: 24px;
+        margin-right: 6px;
+        margin-top: -10px;
+        font-size: 11px;
+}
+
+
+
+
+}
+
+    
